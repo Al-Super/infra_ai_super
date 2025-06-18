@@ -1,0 +1,1 @@
+# DigitalOcean Container Registry Module

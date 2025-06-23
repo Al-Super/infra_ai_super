@@ -11,6 +11,8 @@ The infrastructure selected for this project is DigitalOcean.
   - LLM model app
 - MySQL
 - Spaces (Bucket Storage)
+- IAM
+- VPC
 
 ## Infra Diagram
 

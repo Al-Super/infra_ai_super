@@ -1,0 +1,4 @@
+ssh_key     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ... your_public_key"
+environment = "dev"
+region      = "nyc1"
+emails      = ["your_email@example.com"]

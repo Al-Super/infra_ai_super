@@ -6,12 +6,11 @@ The infrastructure selected for this project is DigitalOcean.
 ## Components
 
 - DOCR (Container Registry)
-- Droplets (instances)
-  - Backend app
-  - LLM model app
+- Droplet Autoscaling Pool (Instances)
+  - Backend app (set to 1)
+  - LLM model app (set to 1)
 - MySQL
 - Spaces (Bucket Storage)
-- IAM
 - VPC
 
 ## Infra Diagram

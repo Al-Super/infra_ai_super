@@ -1,0 +1,10 @@
+terraform {
+  backend "s3" {
+    endpoint                    = "nyc3.digitaloceanspaces.com"  # Change region
+    region                      = "us-east-1"                    # Required but not used
+    bucket                      = "your-terraform-states"        # Create this Spaces bucket first
+    key                         = "dev/terraform.tfstate"
+    skip_credentials_validation = true
+    skip_metadata_api_check     = true
+  }
+}
